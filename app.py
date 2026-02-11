@@ -7,7 +7,7 @@ st.set_page_config(page_title="Coolify Test", page_icon="🚀")
 
 st.title("Coolify Deployment Test")
 st.success("If you can see this, the deployment worked!")
-st.info("v5 — checking webhook delivery logs")
+st.info("v6 — repository_project_id set, auto-deploy should work now!")
 
 st.markdown("---")
 st.markdown(f"**Server time:** {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
