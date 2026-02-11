@@ -7,7 +7,7 @@ st.set_page_config(page_title="Coolify Test", page_icon="🚀")
 
 st.title("Coolify Deployment Test")
 st.success("If you can see this, the deployment worked!")
-st.info("v2 — Auto-deploy test: this line was added via git push.")
+st.info("v3 — Auto-deploy test: pushed after switching to GitHub App source.")
 
 st.markdown("---")
 st.markdown(f"**Server time:** {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
